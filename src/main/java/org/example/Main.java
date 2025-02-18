@@ -10,6 +10,7 @@ public class Main {
         // TEST 1 2 3 4 5
         CreateCarService createCarService = new CreateCarService();
         List<Car> cars = createCarService.create();
+        List<Car> cars2 = createCarService.create();
         System.out.println(cars);
 
         System.out.println(LocalDate.of(2025, 2, 10).isBefore(LocalDate.of(2025, 2, 4)));

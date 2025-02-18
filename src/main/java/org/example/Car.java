@@ -15,6 +15,8 @@ import java.util.List;
 @Builder
 public class Car {
 
+    /* Ceci est la class Model */
+
     private String colorDoor;
     private String colorWheel;
     private String colorWindshield;

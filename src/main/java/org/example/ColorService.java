@@ -11,6 +11,8 @@ import java.util.Random;
 @NoArgsConstructor
 public class ColorService {
 
+    /* Ceci est la classe ColorService */
+
     public String getColorWheels () {
         List<String> colors = new ArrayList<>();
         colors.add("Red");

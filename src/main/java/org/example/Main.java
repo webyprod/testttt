@@ -19,6 +19,11 @@ public class Main {
         System.out.println(cars4);
         System.out.println(cars4);
         System.out.println(cars4);
+        System.out.println(cars2);
+        System.out.println(cars2);
+        System.out.println(cars2);
+        System.out.println(cars2);
+        System.out.println(cars2);
 
         System.out.println(LocalDate.of(2025, 2, 10).isBefore(LocalDate.of(2025, 2, 4)));
     }

@@ -12,6 +12,7 @@ public class Main {
         List<Car> cars = createCarService.create();
         List<Car> cars2 = createCarService.create();
         List<Car> cars4 = createCarService.create();
+        List<Car> cars5 = createCarService.create();
         System.out.println(cars);
         System.out.println(cars);
         System.out.println(cars4);
@@ -30,6 +31,10 @@ public class Main {
         System.out.println(cars2);
         System.out.println(cars2);
         System.out.println(cars2);
+        System.out.println(cars5);
+        System.out.println(cars5);
+        System.out.println(cars5);
+        System.out.println(cars5);
 
         System.out.println(LocalDate.of(2025, 2, 10).isBefore(LocalDate.of(2025, 2, 4)));
     }
